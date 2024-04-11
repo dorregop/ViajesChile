@@ -75,7 +75,7 @@ ul li a {
 
 .card-text {
     max-height: 120px;
-    overflow-y: auto;
+    overflow-y: hidden;
     color: #fff;
 }
 
