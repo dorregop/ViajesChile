@@ -1,84 +1,132 @@
-.logo-viajes-chile{
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.logo-viajes-chile {
     width: 35px;
     height: 30px;
 }
-.separacion{
+
+.separacion {
     justify-content: flex-end;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #fff !important;
 }
+
 ul li a {
     color: #fff !important;
 }
-.size-img-carrusel{
+
+.size-img-carrusel {
     height: 800px;
     width: 100%;
 }
-.section-quieres-somos, .section-destacados, .section-contacto{
+
+.section-quieres-somos,
+.section-destacados,
+.section-contacto {
     background-color: #000;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.titulo-section{
+
+.titulo-section {
     color: #fff;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    border-bottom: solid 1px ;
+    border-bottom: solid 1px;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
-.icon-quienes-somos{
+
+.icon-quienes-somos {
     background-color: #37ecec;
     text-align: center;
     font-size: 23px;
     color: #fff;
 }
-.text-quienes-somos{
+
+.text-quienes-somos {
     color: #fff;
     text-align: justify;
 }
-.card-img-top{
+
+.card-img-top {
     width: 286px;
     height: 190.683px;
 }
-.card-body{
+
+.card-body {
     background-color: #37ecec;
 }
-.card-title{
+
+.card-title {
     color: #fff !important;
     font-weight: bold;
 }
-.card-text{
+
+.card-text {
     max-height: 120px;
     overflow-y: auto;
     color: #fff;
 }
-form{
+
+.card-title, .card-text{
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+form {
     padding-left: auto;
     padding-right: auto;
 }
-.form-label{
+
+.form-label {
     color: #fff;
 }
-.size-text-area{
+
+.size-text-area {
     height: 150px;
 }
-.boton-enviar{
+
+.boton-enviar {
     background-color: #37ecec !important;
     color: #fff !important;
 }
-footer{
+
+footer {
     background-color: #37ecec;
     color: #fff;
 }
-.footer-content{
+
+footer a {
+    color: #fff;
+}
+
+.footer-content {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.footer-content i{
+
+.footer-content i {
     padding: 5px;
     font-size: 30px;
+}
+
+.bajar-texto {
+    padding-top: 12px;
+}
+
+.bajar-iconos {
+    padding-top: 3px;
 }
