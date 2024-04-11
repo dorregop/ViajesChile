@@ -15,9 +15,12 @@ ul li a {
     height: 800px;
     width: 100%;
 }
-.section-quieres-somos, .section-destacados{
+.section-quieres-somos, .section-destacados, .section-contacto{
     background-color: #000;
-    padding: 40px 100px 40px 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .titulo-section{
     color: #fff;
@@ -44,10 +47,38 @@ ul li a {
     background-color: #37ecec;
 }
 .card-title{
-    color: #fff;
+    color: #fff !important;
+    font-weight: bold;
 }
 .card-text{
     max-height: 120px;
     overflow-y: auto;
     color: #fff;
+}
+form{
+    padding-left: auto;
+    padding-right: auto;
+}
+.form-label{
+    color: #fff;
+}
+.size-text-area{
+    height: 150px;
+}
+.boton-enviar{
+    background-color: #37ecec !important;
+    color: #fff !important;
+}
+footer{
+    background-color: #37ecec;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-content i{
+    padding: 5px;
+    font-size: 30px;
 }
