@@ -36,6 +36,17 @@ ul li a {
     padding-bottom: 30px;
 }
 
+.section-quieres-somos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .titulo-section {
     color: #fff;
     text-align: center;
